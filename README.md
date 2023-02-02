@@ -1,0 +1,1 @@
+# styleco-blinds-update-p.github.io
