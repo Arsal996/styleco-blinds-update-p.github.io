@@ -4,7 +4,7 @@ window.onscroll = () => {
 
     if (window.scrollY > 50) {
         navbar.classList.add("fixed-nav");
-        // bookFrom.style.display = "none";
+        bookFrom.style.display = "none";
         mainNav.classList.remove('active-nav')
     }
     else {
