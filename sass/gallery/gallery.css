@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Questrial&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.gallery-section {
+  padding: 5rem 8% 0rem 8%;
+}
+.gallery-section .gallery-heading .gh-hd h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+}
+.gallery-section .gallery-heading .gh-hd p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  font-family: "Gilroy", sans-serif;
+  width: 80%;
+}
+
+.gallery-images {
+  padding: 4rem 8%;
+  margin-top: 1rem;
+}
+.gallery-images .all-images-g .image-g {
+  margin-top: 1.5rem;
+}
+.gallery-images .all-images-g .image-g img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.gallery-images .all-images-g .image-g img:hover {
+  transform: scale(1.05);
+}
+.gallery-images .load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.gallery-images .load-more button {
+  width: 220px;
+  height: 50px;
+  border: 1px solid #0f0f0f;
+  background-color: #ffffff;
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@media only screen and (max-width: 450px) {
+  .gallery-section {
+    padding: 2rem 4% 0rem 4%;
+  }
+  .gallery-section .gallery-heading .gh-hd h1 {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+  }
+  .gallery-images {
+    padding: 0rem 4%;
+    margin-top: 1rem;
+  }
+  .gallery-images .all-images-g .image-g {
+    margin-top: 1rem;
+  }
+  .gallery-images .load-more {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+  }
+  .gallery-images .load-more button {
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Questrial&display=swap");
+
+// color varialbes
+
+$light-grey: #e0e5e5;
+$black: #0f0f0f;
+$orange: #ff8600;
+$primary-blue: #476c9b;
+$white: #ffffff;
+$gray: #6b7680;
+$red: #f21b3f;
+$yellow-brand: #f9b11c;
+$pink: #e65f99;
+$purple: #551a8b;
+
+// font uses
+
+$main-font: "Gilroy", sans-serif;
+$heading-font: "Playfair Display", serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.project-details-section {
+    padding: 2rem 8%;
+
+    .all-content-prdt {
+        margin-top: 4rem;
+        align-items: center;
+
+        .img-side {
+            img {
+                width: 90%;
+            }
+        }
+        .text-side {
+            .prop {
+                display: flex;
+                gap: 1rem;
+                li {
+                    list-style: none;
+                    font-family: $main-font;
+                    color: $yellow-brand;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-transform: uppercase;
+                }
+            }
+            h1 {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                width: 65%;
+                line-height: 57px;
+                margin-top: 0.5rem;
+                letter-spacing: 0.02em;
+            }
+            .location {
+                display: flex;
+                gap: 0.5rem;
+
+                img {
+                    width: 15px;
+                    height: 20px;
+                    color: black;
+                }
+                p {
+                    font-family: $main-font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+
+            .price {
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    font-family: $main-font;
+                }
+                span {
+                    color: $orange;
+                    font-weight: 600;
+                }
+            }
+            p {
+                font-family: $main-font;
+                color: $gray;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                width: 70%;
+                line-height: 21px;
+            }
+            label {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            select {
+                width: 100%;
+                height: 45px;
+                background-color: $white;
+                border: 1px solid $light-grey;
+                padding: 0 0.5rem;
+                cursor: pointer;
+                font-family: $main-font;
+                // border: none;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 15px;
+                margin-top: 1rem;
+            }
+            .two-btn {
+                display: flex;
+                gap: 1rem;
+                margin-top: 8rem;
+                // width: 90%;
+                .btn1 {
+                    width: 50%;
+                    height: 52px;
+                    padding: 0.8rem 0;
+                    background-color: $yellow-brand;
+                    text-decoration: none;
+                    color: $white;
+                    text-align: center;
+                }
+                .btn2 {
+                    width: 50%;
+                    height: 52px;
+                    padding: 0.8rem 0;
+                    background-color: $white;
+                    text-decoration: none;
+                    color: $black;
+                    text-align: center;
+                    border: 1px solid $black;
+                }
+            }
+        }
+    }
+
+    .content-prdt {
+        margin-top: 4rem;
+        padding-left: 1rem;
+
+        .all-text-cnt {
+            border-left: 1px solid $light-grey;
+            padding-left: 2rem;
+            span {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            h4 {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                margin: 1rem 0;
+            }
+            p {
+                font-family: $main-font;
+                color: $gray;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                width: 90%;
+                line-height: 21px;
+            }
+        }
+    }
+
+    .content-prdt2 {
+        margin-top: 5rem;
+
+        .text-cnt {
+            h4 {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+            }
+            p {
+                font-family: $main-font;
+                color: $gray;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                width: 90%;
+                margin-top: 1rem;
+            }
+        }
+        .box-content {
+            h4 {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+            }
+            .inner-content {
+                background: #f1f1f1;
+                // width: 90%;
+                margin-top: 1rem;
+                padding: 1rem;
+                padding-bottom: 0;
+
+                .arow-text {
+                    display: flex;
+                    img {
+                        width: 14px;
+                        height: 14px;
+                        margin-top: 0.1rem;
+                        margin-right: 0.5rem;
+                    }
+                    p {
+                        font-family: $main-font;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+            }
+        }
+    }
+
+    .big-main-img {
+        margin-top: 4rem;
+
+        .one-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// after-styleco  css
+
+.after-styleco {
+    padding: 2rem 8%;
+
+    .as-heading {
+        h4 {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+        }
+    }
+    .as-images {
+        margin-top: 1.5rem;
+
+        .as-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .as-one-img {
+        margin-top: 1.5rem;
+
+        .as-single-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .as-three-images {
+        margin-top: 1.5rem;
+
+        .three-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// customer-review css
+
+.customer-review {
+    padding: 4rem 8%;
+    text-align: center;
+
+    .cr-heading {
+        h4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            margin: 1.5rem 0;
+            font-family: $main-font;
+            line-height: 38px;
+        }
+    }
+    .swiper {
+        .swiper-wrapper {
+            .swiper-slide {
+                cursor: pointer;
+                p {
+                    font-family: $main-font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 21px;
+                    padding: 0 15rem;
+                    line-height: 32px;
+                }
+                span {
+                    font-family: $main-font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+}
+
+.blinds-items-section {
+    .blt-heading {
+        text-align: center;
+
+        h2 {
+            font-family: $heading-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+        }
+        p {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+
+    .all-blt-btn{
+        margin-top: 2rem;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            font-family: $main-font;
+            color: $black;
+            font-style: normal;
+            padding: 0.8rem 1.5rem;
+            background-color: $yellow-brand;
+            font-weight: 600;
+            font-size: 16px;
+            width: 250px;
+            text-align: center;
+            line-height: 19px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1750px) {
+    .project-details-section .all-content-prdt .text-side h1 {
+        width: 75%;
+    }
+    .project-details-section .all-content-prdt .text-side p {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .project-details-section .all-content-prdt .text-side h1 {
+        width: 100%;
+    }
+    .project-details-section .all-content-prdt .text-side p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .project-details-section {
+        padding: 2rem 4%;
+    }
+    .project-details-section .all-content-prdt .img-side img {
+        width: 100%;
+    }
+    .project-details-section .all-content-prdt .text-side {
+        margin-top: 1rem;
+    }
+    .project-details-section .all-content-prdt {
+        margin-top: 0rem;
+        align-items: center;
+    }
+    .project-details-section .all-content-prdt .text-side h1 {
+        font-size: 30px;
+        width: 100%;
+        line-height: 35px;
+        margin-top: 0.5rem;
+        letter-spacing: 0.02em;
+    }
+    .project-details-section .all-content-prdt .text-side .price p {
+        margin-bottom: 0.5rem;
+    }
+    .project-details-section .all-content-prdt .text-side .two-btn {
+        margin-top: 2rem;
+    }
+    .project-details-section .all-content-prdt .text-side .two-btn .btn1 {
+        width: 50%;
+        height: 50px;
+        padding: 0.8rem 0.2rem;
+        font-size: 14px;
+    }
+    .project-details-section .all-content-prdt .text-side .two-btn .btn2 {
+        width: 50%;
+        height: 50px;
+        font-size: 14px;
+        padding: 0.8rem 0;
+    }
+    .project-details-section .content-prdt2 {
+        margin-top: 2.5rem;
+    }
+    .project-details-section .content-prdt2 .text-cnt h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .project-details-section .content-prdt2 .text-cnt p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 99%;
+        margin-top: 0.5rem;
+    }
+    .project-details-section .content-prdt2 .box-content h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .project-details-section .content-prdt2 .box-content .inner-content .arow-text p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .after-styleco {
+        padding: 0rem 4%;
+    }
+    .after-styleco .as-heading h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .after-styleco .as-images {
+        margin-top: 0rem;
+    }
+    .after-styleco .as-images .as-img img {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .after-styleco .as-three-images .three-img img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .customer-review .swiper .swiper-wrapper .swiper-slide p {
+        font-size: 18px;
+        padding: 0rem;
+        line-height: 26px;
+    }
+    .customer-review .cr-heading h4 {
+        font-size: 24px;
+        margin: 1rem 0;
+        line-height: 30px;
+    }
+    .customer-review {
+        padding: 2rem 6%;
+    }
+    .blinds-items-section .blt-heading h2 {
+        font-family: "Playfair Display", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .blinds-items-section .all-blt-btn a {
+        font-size: 15px;
+        width: 200px;
+    }
+    .after-styleco .as-heading h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .project-details-section .content-prdt .all-text-cnt {
+        border-left: 1px solid #e0e5e5;
+        padding-left: 1rem;
+    }
+    .project-details-section .content-prdt {
+        margin-top: 2rem;
+        padding-left: 1rem;
+    }
+    .project-details-section .content-prdt .all-text-cnt h4 {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0.5rem 0;
+    }
+    .project-details-section .big-main-img {
+        margin-top: 2rem;
+    }
+}

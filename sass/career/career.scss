@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Questrial&display=swap");
+
+// color varialbes
+
+$light-grey: #e0e5e5;
+$black: #0f0f0f;
+$orange: #ff8600;
+$primary-blue: #476c9b;
+$white: #ffffff;
+$gray: #6b7680;
+$red: #f21b3f;
+$yellow-brand: #f9b11c;
+$pink: #e65f99;
+$purple: #551a8b;
+
+// font uses
+
+$main-font: "Gilroy", sans-serif;
+$heading-font: "Playfair Display", serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.career-top-section {
+    background-size: 100% 100%;
+
+    .career-heading {
+        padding: 10rem 4rem;
+
+        h1 {
+            font-family: $heading-font;
+            color: $white;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 64px;
+            /* identical to box height */
+            letter-spacing: 0.02em;
+        }
+        a {
+            width: 220px;
+            height: 54px;
+            display: block;
+            background-color: $yellow-brand;
+            text-align: center;
+            text-decoration: none;
+            color: $black;
+            padding: 1rem 0;
+            margin-top: 1rem;
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+}
+
+// career-details css
+
+.career-details {
+    padding: 2rem 8%;
+    background: #f1f1f1;
+
+    .crd-heading {
+        padding: 4rem;
+        text-align: center;
+
+        h2 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 53px;
+            font-family: $heading-font;
+        }
+        p {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0 27rem;
+        }
+    }
+
+    .crd-content {
+        .img-text-crd {
+            img {
+                width: 100%;
+                height: 85%;
+            }
+            h4 {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                margin: 1rem 0;
+            }
+            p {
+                color: $gray;
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                width: 90%;
+                line-height: 21px;
+            }
+            .all-content-crd {
+                margin-bottom: 3rem;
+
+                img {
+                    width: 96%;
+                }
+                h4 {
+                    font-family: $main-font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 38px;
+                    margin: 1rem 0;
+                }
+                p {
+                    color: $gray;
+                    font-family: $main-font;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    width: 90%;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+
+    .job-opening {
+        margin-top: 3rem;
+
+        .jo-heading {
+            text-align: center;
+
+            h3 {
+                font-family: $heading-font;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+
+        .all-jobs {
+            padding: 2rem 20%;
+
+            .job {
+                display: flex;
+                justify-content: space-between;
+                padding: 1.5rem 0 0.5rem 0;
+                border-bottom: 1px solid $light-grey;
+
+                .jb-title-location {
+                    strong {
+                        font-family: $main-font;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 21px;
+                        line-height: 25px;
+                    }
+                    p {
+                        font-family: $main-font;
+                        color: $gray;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                }
+
+                .apply-btn {
+                    a {
+                        text-decoration: none;
+                        color: $black;
+                        display: block;
+                        width: 160px;
+                        background-color: $white;
+                        height: 45px;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 19px;
+                        font-family: $main-font;
+                        border: 1px solid $black;
+                        text-align: center;
+                        padding: 0.7rem;
+                    }
+                }
+            }
+        }
+
+        .contact-us-jb {
+            text-align: center;
+            margin: 1rem 0;
+
+            h6 {
+                font-family: $main-font;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 25px;
+                margin-bottom: 1.5rem;
+            }
+            a {
+                text-decoration: none;
+                color: $black;
+                background-color: $white;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                font-family: $main-font;
+                border: 1px solid $black;
+                text-align: center;
+                padding: 0.7rem 1.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1850px) {
+    .career-details .crd-heading p {
+        padding: 0 18rem;
+    }
+    .career-details .crd-content .img-text-crd img {
+        width: 100%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .career-details .crd-heading p {
+        padding: 0 10rem;
+    }
+    .career-details .crd-content .img-text-crd img {
+        width: 100%;
+        height: 75%;
+    }
+    .career-details .job-opening .all-jobs {
+        padding: 2rem 12%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .career-details .crd-heading p {
+        padding: 0rem;
+    }
+    .career-details .crd-content .img-text-crd img {
+        width: 100%;
+        height: 80%;
+    }
+    .career-top-section .career-heading {
+        padding: 4rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .career-top-section .career-heading {
+        padding: 4rem;
+    }
+    .career-top-section .career-heading h1 {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.02em;
+        margin-bottom: 2rem;
+    }
+    .career-top-section .career-heading a {
+        padding: 1rem;
+        font-size: 16px;
+        line-height: 21px;
+        display: inline;
+    }
+    .career-details {
+        padding: 2rem 4%;
+        background: #f1f1f1;
+    }
+    .career-details .crd-heading {
+        padding: 0rem;
+        text-align: center;
+    }
+    .career-details .crd-heading h2 {
+        font-size: 28px;
+        padding: 0 1rem;
+        line-height: 40px;
+    }
+    .career-details .crd-content .img-text-crd .all-content-crd img {
+        width: 100%;
+    }
+    .career-details .crd-content .img-text-crd .all-content-crd h4 {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 0.5rem 0;
+    }
+    .career-details .crd-content .img-text-crd .all-content-crd {
+        margin-bottom: 2rem;
+    }
+    .career-details .crd-content .img-text-crd h4 {
+        font-size: 28px;
+        line-height: 32px;
+        margin: 0.5rem 0;
+    }
+    .career-details .job-opening .all-jobs {
+        padding: 2rem 0;
+        padding-top: 1rem;
+    }
+    .career-details .job-opening .all-jobs .job .apply-btn a {
+        width: 120px;
+        font-size: 15px;
+        padding: 0.7rem;
+    }
+    .career-details .job-opening .jo-heading h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .career-details .job-opening .all-jobs .job .jb-title-location strong {
+        font-size: 18px;
+        line-height: 21px;
+        width: 95%;
+        display: block;
+    }
+    .career-details .job-opening .contact-us-jb {
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
+}
