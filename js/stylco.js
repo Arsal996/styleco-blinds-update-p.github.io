@@ -2,7 +2,7 @@ let navbar = document.querySelector('.all-navbar');
 
 window.onscroll = () => {
 
-    if (window.scrollY > 50) {
+    if (window.scrollY > 150) {
         navbar.classList.add("fixed-nav");
         bookFrom.style.display = "none";
         mainNav.classList.remove('active-nav')
